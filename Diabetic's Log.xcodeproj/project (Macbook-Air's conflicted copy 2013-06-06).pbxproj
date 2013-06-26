@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920289B117052B3A007DCF26 /* ShareListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920289AF17052B39007DCF26 /* ShareListViewController.m */; };
+		920289B217052B3A007DCF26 /* ShareListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920289B017052B3A007DCF26 /* ShareListViewController.xib */; };
+		920289B5170534ED007DCF26 /* diabeticsLog.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289B3170534ED007DCF26 /* diabeticsLog.png */; };
+		920289B6170534ED007DCF26 /* diabeticsLog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289B4170534ED007DCF26 /* diabeticsLog@2x.png */; };
+		920289B81705350A007DCF26 /* diabeticsLog.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289B71705350A007DCF26 /* diabeticsLog.png */; };
+		920289BA17053513007DCF26 /* diabeticsLog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289B917053513007DCF26 /* diabeticsLog@2x.png */; };
+		920289BD17053D66007DCF26 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289BB17053D65007DCF26 /* Default.png */; };
+		920289BE17053D66007DCF26 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 920289BC17053D65007DCF26 /* Default@2x.png */; };
+		9294375B1703F2F0009BA764 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9294375A1703F2F0009BA764 /* UIKit.framework */; };
+		9294375D1703F2F0009BA764 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9294375C1703F2F0009BA764 /* Foundation.framework */; };
+		9294375F1703F2F0009BA764 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9294375E1703F2F0009BA764 /* CoreGraphics.framework */; };
+		929437651703F2F0009BA764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 929437631703F2F0009BA764 /* InfoPlist.strings */; };
+		929437671703F2F0009BA764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437661703F2F0009BA764 /* main.m */; };
+		9294376B1703F2F0009BA764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294376A1703F2F0009BA764 /* AppDelegate.m */; };
+		9294376D1703F2F0009BA764 /* Defaultold.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294376C1703F2F0009BA764 /* Defaultold.png */; };
+		9294376F1703F2F0009BA764 /* Default@2xold.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294376E1703F2F0009BA764 /* Default@2xold.png */; };
+		929437711703F2F0009BA764 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437701703F2F0009BA764 /* Default-568h@2x.png */; };
+		929437741703F2F0009BA764 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437731703F2F0009BA764 /* FirstViewController.m */; };
+		929437761703F2F0009BA764 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437751703F2F0009BA764 /* first.png */; };
+		929437781703F2F0009BA764 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437771703F2F0009BA764 /* first@2x.png */; };
+		9294377B1703F2F0009BA764 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294377A1703F2F0009BA764 /* SecondViewController.m */; };
+		9294377D1703F2F0009BA764 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294377C1703F2F0009BA764 /* second.png */; };
+		9294377F1703F2F0009BA764 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294377E1703F2F0009BA764 /* second@2x.png */; };
+		929437821703F2F0009BA764 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437801703F2F0009BA764 /* FirstViewController.xib */; };
+		929437851703F2F0009BA764 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437831703F2F0009BA764 /* SecondViewController.xib */; };
+		9294378E1703F340009BA764 /* MedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294378C1703F340009BA764 /* MedListViewController.m */; };
+		9294378F1703F340009BA764 /* MedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9294378D1703F340009BA764 /* MedListViewController.xib */; };
+		929437931703F356009BA764 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437911703F356009BA764 /* SettingsViewController.m */; };
+		929437941703F356009BA764 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437921703F356009BA764 /* SettingsViewController.xib */; };
+		929437971703F767009BA764 /* LogEntry.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437951703F767009BA764 /* LogEntry.png */; };
+		929437981703F767009BA764 /* LogList.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437961703F767009BA764 /* LogList.png */; };
+		9294379D1703F940009BA764 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 929437991703F940009BA764 /* Home.png */; };
+		9294379E1703F940009BA764 /* DocInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294379A1703F940009BA764 /* DocInfo.png */; };
+		9294379F1703F940009BA764 /* MedList.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294379B1703F940009BA764 /* MedList.png */; };
+		929437A01703F940009BA764 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9294379C1703F940009BA764 /* Settings.png */; };
+		929437A41703FE09009BA764 /* LogEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437A21703FE09009BA764 /* LogEntryViewController.m */; };
+		929437A51703FE09009BA764 /* LogEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437A31703FE09009BA764 /* LogEntryViewController.xib */; };
+		929437A91703FF8A009BA764 /* LogItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437A71703FF8A009BA764 /* LogItemListViewController.m */; };
+		929437AA1703FF8A009BA764 /* LogItemListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437A81703FF8A009BA764 /* LogItemListViewController.xib */; };
+		929437AE170400DB009BA764 /* PersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437AC170400DA009BA764 /* PersonalInfoViewController.m */; };
+		929437AF170400DB009BA764 /* PersonalInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437AD170400DA009BA764 /* PersonalInfoViewController.xib */; };
+		929437B317040102009BA764 /* EditDocInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437B117040102009BA764 /* EditDocInfoViewController.m */; };
+		929437B417040102009BA764 /* EditDocInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437B217040102009BA764 /* EditDocInfoViewController.xib */; };
+		929437B8170405D5009BA764 /* EditLogEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929437B6170405D4009BA764 /* EditLogEntryViewController.m */; };
+		929437B9170405D5009BA764 /* EditLogEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929437B7170405D5009BA764 /* EditLogEntryViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		920289AE17052B39007DCF26 /* ShareListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareListViewController.h; sourceTree = "<group>"; };
+		920289AF17052B39007DCF26 /* ShareListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareListViewController.m; sourceTree = "<group>"; };
+		920289B017052B3A007DCF26 /* ShareListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareListViewController.xib; sourceTree = "<group>"; };
+		920289B3170534ED007DCF26 /* diabeticsLog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diabeticsLog.png; sourceTree = "<group>"; };
+		920289B4170534ED007DCF26 /* diabeticsLog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diabeticsLog@2x.png"; sourceTree = "<group>"; };
+		920289B71705350A007DCF26 /* diabeticsLog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diabeticsLog.png; sourceTree = "<group>"; };
+		920289B917053513007DCF26 /* diabeticsLog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diabeticsLog@2x.png"; sourceTree = "<group>"; };
+		920289BB17053D65007DCF26 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../../MUX/Week 4/Default.png"; sourceTree = "<group>"; };
+		920289BC17053D65007DCF26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../MUX/Week 4/Default@2x.png"; sourceTree = "<group>"; };
+		929437571703F2F0009BA764 /* Diabetic's Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diabetic's Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9294375A1703F2F0009BA764 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9294375C1703F2F0009BA764 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9294375E1703F2F0009BA764 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		929437621703F2F0009BA764 /* Diabetic's Log-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Diabetic's Log-Info.plist"; sourceTree = "<group>"; };
+		929437641703F2F0009BA764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		929437661703F2F0009BA764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929437681703F2F0009BA764 /* Diabetic's Log-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Diabetic's Log-Prefix.pch"; sourceTree = "<group>"; };
+		929437691703F2F0009BA764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9294376A1703F2F0009BA764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9294376C1703F2F0009BA764 /* Defaultold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defaultold.png; sourceTree = "<group>"; };
+		9294376E1703F2F0009BA764 /* Default@2xold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2xold.png"; sourceTree = "<group>"; };
+		929437701703F2F0009BA764 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		929437721703F2F0009BA764 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		929437731703F2F0009BA764 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		929437751703F2F0009BA764 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		929437771703F2F0009BA764 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		929437791703F2F0009BA764 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9294377A1703F2F0009BA764 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9294377C1703F2F0009BA764 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9294377E1703F2F0009BA764 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		929437811703F2F0009BA764 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		929437841703F2F0009BA764 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		9294378B1703F340009BA764 /* MedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedListViewController.h; sourceTree = "<group>"; };
+		9294378C1703F340009BA764 /* MedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedListViewController.m; sourceTree = "<group>"; };
+		9294378D1703F340009BA764 /* MedListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedListViewController.xib; sourceTree = "<group>"; };
+		929437901703F356009BA764 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		929437911703F356009BA764 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		929437921703F356009BA764 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		929437951703F767009BA764 /* LogEntry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogEntry.png; sourceTree = "<group>"; };
+		929437961703F767009BA764 /* LogList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogList.png; sourceTree = "<group>"; };
+		929437991703F940009BA764 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		9294379A1703F940009BA764 /* DocInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DocInfo.png; sourceTree = "<group>"; };
+		9294379B1703F940009BA764 /* MedList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MedList.png; sourceTree = "<group>"; };
+		9294379C1703F940009BA764 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		929437A11703FE08009BA764 /* LogEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogEntryViewController.h; sourceTree = "<group>"; };
+		929437A21703FE09009BA764 /* LogEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogEntryViewController.m; sourceTree = "<group>"; };
+		929437A31703FE09009BA764 /* LogEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogEntryViewController.xib; sourceTree = "<group>"; };
+		929437A61703FF8A009BA764 /* LogItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogItemListViewController.h; sourceTree = "<group>"; };
+		929437A71703FF8A009BA764 /* LogItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogItemListViewController.m; sourceTree = "<group>"; };
+		929437A81703FF8A009BA764 /* LogItemListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogItemListViewController.xib; sourceTree = "<group>"; };
+		929437AB170400DA009BA764 /* PersonalInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInfoViewController.h; sourceTree = "<group>"; };
+		929437AC170400DA009BA764 /* PersonalInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoViewController.m; sourceTree = "<group>"; };
+		929437AD170400DA009BA764 /* PersonalInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInfoViewController.xib; sourceTree = "<group>"; };
+		929437B017040102009BA764 /* EditDocInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDocInfoViewController.h; sourceTree = "<group>"; };
+		929437B117040102009BA764 /* EditDocInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDocInfoViewController.m; sourceTree = "<group>"; };
+		929437B217040102009BA764 /* EditDocInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDocInfoViewController.xib; sourceTree = "<group>"; };
+		929437B5170405D4009BA764 /* EditLogEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditLogEntryViewController.h; sourceTree = "<group>"; };
+		929437B6170405D4009BA764 /* EditLogEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditLogEntryViewController.m; sourceTree = "<group>"; };
+		929437B7170405D5009BA764 /* EditLogEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditLogEntryViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929437541703F2F0009BA764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9294375B1703F2F0009BA764 /* UIKit.framework in Frameworks */,
+				9294375D1703F2F0009BA764 /* Foundation.framework in Frameworks */,
+				9294375F1703F2F0009BA764 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9294374E1703F2F0009BA764 = {
+			isa = PBXGroup;
+			children = (
+				920289B917053513007DCF26 /* diabeticsLog@2x.png */,
+				920289B71705350A007DCF26 /* diabeticsLog.png */,
+				929437601703F2F0009BA764 /* Diabetic's Log */,
+				929437591703F2F0009BA764 /* Frameworks */,
+				929437581703F2F0009BA764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929437581703F2F0009BA764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929437571703F2F0009BA764 /* Diabetic's Log.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929437591703F2F0009BA764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9294375A1703F2F0009BA764 /* UIKit.framework */,
+				9294375C1703F2F0009BA764 /* Foundation.framework */,
+				9294375E1703F2F0009BA764 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		929437601703F2F0009BA764 /* Diabetic's Log */ = {
+			isa = PBXGroup;
+			children = (
+				929437691703F2F0009BA764 /* AppDelegate.h */,
+				9294376A1703F2F0009BA764 /* AppDelegate.m */,
+				929437721703F2F0009BA764 /* FirstViewController.h */,
+				929437731703F2F0009BA764 /* FirstViewController.m */,
+				929437801703F2F0009BA764 /* FirstViewController.xib */,
+				929437751703F2F0009BA764 /* first.png */,
+				929437991703F940009BA764 /* Home.png */,
+				920289AE17052B39007DCF26 /* ShareListViewController.h */,
+				920289AF17052B39007DCF26 /* ShareListViewController.m */,
+				920289B017052B3A007DCF26 /* ShareListViewController.xib */,
+				9294379A1703F940009BA764 /* DocInfo.png */,
+				929437A11703FE08009BA764 /* LogEntryViewController.h */,
+				929437A21703FE09009BA764 /* LogEntryViewController.m */,
+				929437A31703FE09009BA764 /* LogEntryViewController.xib */,
+				929437A61703FF8A009BA764 /* LogItemListViewController.h */,
+				929437A71703FF8A009BA764 /* LogItemListViewController.m */,
+				929437A81703FF8A009BA764 /* LogItemListViewController.xib */,
+				9294379B1703F940009BA764 /* MedList.png */,
+				9294379C1703F940009BA764 /* Settings.png */,
+				929437B5170405D4009BA764 /* EditLogEntryViewController.h */,
+				929437B6170405D4009BA764 /* EditLogEntryViewController.m */,
+				929437B7170405D5009BA764 /* EditLogEntryViewController.xib */,
+				929437B017040102009BA764 /* EditDocInfoViewController.h */,
+				929437B117040102009BA764 /* EditDocInfoViewController.m */,
+				929437B217040102009BA764 /* EditDocInfoViewController.xib */,
+				929437AB170400DA009BA764 /* PersonalInfoViewController.h */,
+				929437AC170400DA009BA764 /* PersonalInfoViewController.m */,
+				929437AD170400DA009BA764 /* PersonalInfoViewController.xib */,
+				929437771703F2F0009BA764 /* first@2x.png */,
+				929437791703F2F0009BA764 /* SecondViewController.h */,
+				9294377A1703F2F0009BA764 /* SecondViewController.m */,
+				929437831703F2F0009BA764 /* SecondViewController.xib */,
+				929437951703F767009BA764 /* LogEntry.png */,
+				929437961703F767009BA764 /* LogList.png */,
+				9294377C1703F2F0009BA764 /* second.png */,
+				9294377E1703F2F0009BA764 /* second@2x.png */,
+				9294378B1703F340009BA764 /* MedListViewController.h */,
+				9294378C1703F340009BA764 /* MedListViewController.m */,
+				9294378D1703F340009BA764 /* MedListViewController.xib */,
+				929437901703F356009BA764 /* SettingsViewController.h */,
+				929437911703F356009BA764 /* SettingsViewController.m */,
+				929437921703F356009BA764 /* SettingsViewController.xib */,
+				929437611703F2F0009BA764 /* Supporting Files */,
+			);
+			path = "Diabetic's Log";
+			sourceTree = "<group>";
+		};
+		929437611703F2F0009BA764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929437621703F2F0009BA764 /* Diabetic's Log-Info.plist */,
+				929437631703F2F0009BA764 /* InfoPlist.strings */,
+				929437661703F2F0009BA764 /* main.m */,
+				920289BB17053D65007DCF26 /* Default.png */,
+				920289BC17053D65007DCF26 /* Default@2x.png */,
+				920289B3170534ED007DCF26 /* diabeticsLog.png */,
+				920289B4170534ED007DCF26 /* diabeticsLog@2x.png */,
+				929437681703F2F0009BA764 /* Diabetic's Log-Prefix.pch */,
+				9294376C1703F2F0009BA764 /* Defaultold.png */,
+				9294376E1703F2F0009BA764 /* Default@2xold.png */,
+				929437701703F2F0009BA764 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929437561703F2F0009BA764 /* Diabetic's Log */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929437881703F2F0009BA764 /* Build configuration list for PBXNativeTarget "Diabetic's Log" */;
+			buildPhases = (
+				929437531703F2F0009BA764 /* Sources */,
+				929437541703F2F0009BA764 /* Frameworks */,
+				929437551703F2F0009BA764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diabetic's Log";
+			productName = "Diabetic's Log";
+			productReference = 929437571703F2F0009BA764 /* Diabetic's Log.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9294374F1703F2F0009BA764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Smith";
+			};
+			buildConfigurationList = 929437521703F2F0009BA764 /* Build configuration list for PBXProject "Diabetic's Log" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9294374E1703F2F0009BA764;
+			productRefGroup = 929437581703F2F0009BA764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929437561703F2F0009BA764 /* Diabetic's Log */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929437551703F2F0009BA764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929437651703F2F0009BA764 /* InfoPlist.strings in Resources */,
+				9294376D1703F2F0009BA764 /* Defaultold.png in Resources */,
+				9294376F1703F2F0009BA764 /* Default@2xold.png in Resources */,
+				929437711703F2F0009BA764 /* Default-568h@2x.png in Resources */,
+				929437761703F2F0009BA764 /* first.png in Resources */,
+				929437781703F2F0009BA764 /* first@2x.png in Resources */,
+				9294377D1703F2F0009BA764 /* second.png in Resources */,
+				9294377F1703F2F0009BA764 /* second@2x.png in Resources */,
+				929437821703F2F0009BA764 /* FirstViewController.xib in Resources */,
+				929437851703F2F0009BA764 /* SecondViewController.xib in Resources */,
+				9294378F1703F340009BA764 /* MedListViewController.xib in Resources */,
+				929437941703F356009BA764 /* SettingsViewController.xib in Resources */,
+				929437971703F767009BA764 /* LogEntry.png in Resources */,
+				929437981703F767009BA764 /* LogList.png in Resources */,
+				9294379D1703F940009BA764 /* Home.png in Resources */,
+				9294379E1703F940009BA764 /* DocInfo.png in Resources */,
+				9294379F1703F940009BA764 /* MedList.png in Resources */,
+				929437A01703F940009BA764 /* Settings.png in Resources */,
+				929437A51703FE09009BA764 /* LogEntryViewController.xib in Resources */,
+				929437AA1703FF8A009BA764 /* LogItemListViewController.xib in Resources */,
+				929437AF170400DB009BA764 /* PersonalInfoViewController.xib in Resources */,
+				929437B417040102009BA764 /* EditDocInfoViewController.xib in Resources */,
+				929437B9170405D5009BA764 /* EditLogEntryViewController.xib in Resources */,
+				920289B217052B3A007DCF26 /* ShareListViewController.xib in Resources */,
+				920289B5170534ED007DCF26 /* diabeticsLog.png in Resources */,
+				920289B6170534ED007DCF26 /* diabeticsLog@2x.png in Resources */,
+				920289B81705350A007DCF26 /* diabeticsLog.png in Resources */,
+				920289BA17053513007DCF26 /* diabeticsLog@2x.png in Resources */,
+				920289BD17053D66007DCF26 /* Default.png in Resources */,
+				920289BE17053D66007DCF26 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929437531703F2F0009BA764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929437671703F2F0009BA764 /* main.m in Sources */,
+				9294376B1703F2F0009BA764 /* AppDelegate.m in Sources */,
+				929437741703F2F0009BA764 /* FirstViewController.m in Sources */,
+				9294377B1703F2F0009BA764 /* SecondViewController.m in Sources */,
+				9294378E1703F340009BA764 /* MedListViewController.m in Sources */,
+				929437931703F356009BA764 /* SettingsViewController.m in Sources */,
+				929437A41703FE09009BA764 /* LogEntryViewController.m in Sources */,
+				929437A91703FF8A009BA764 /* LogItemListViewController.m in Sources */,
+				929437AE170400DB009BA764 /* PersonalInfoViewController.m in Sources */,
+				929437B317040102009BA764 /* EditDocInfoViewController.m in Sources */,
+				929437B8170405D5009BA764 /* EditLogEntryViewController.m in Sources */,
+				920289B117052B3A007DCF26 /* ShareListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929437631703F2F0009BA764 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929437641703F2F0009BA764 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		929437801703F2F0009BA764 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929437811703F2F0009BA764 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		929437831703F2F0009BA764 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929437841703F2F0009BA764 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929437861703F2F0009BA764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		929437871703F2F0009BA764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929437891703F2F0009BA764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diabetic's Log/Diabetic's Log-Prefix.pch";
+				INFOPLIST_FILE = "Diabetic's Log/Diabetic's Log-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9294378A1703F2F0009BA764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Diabetic's Log/Diabetic's Log-Prefix.pch";
+				INFOPLIST_FILE = "Diabetic's Log/Diabetic's Log-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929437521703F2F0009BA764 /* Build configuration list for PBXProject "Diabetic's Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929437861703F2F0009BA764 /* Debug */,
+				929437871703F2F0009BA764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929437881703F2F0009BA764 /* Build configuration list for PBXNativeTarget "Diabetic's Log" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929437891703F2F0009BA764 /* Debug */,
+				9294378A1703F2F0009BA764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9294374F1703F2F0009BA764 /* Project object */;
+}
